@@ -16,6 +16,9 @@ public class IntToEng {
 
     // 数値を英訳する変換するメソッド
     static String translateEng(int n) {
-        return "three";
-    }
+    	String[] number = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+    			"eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
+    	//if(0 <= n && n < 20) 
+    	return number[n];
+    	}
 }
