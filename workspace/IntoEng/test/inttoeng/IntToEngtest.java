@@ -35,4 +35,12 @@ public class IntToEngtest {
 		String actual = ite.translateEng(70);
 		assertThat(actual, is(expected)); 
 	}
+	
+	@Test
+	public void ひゃくからone_hundredへ変更() {
+		IntToEng ite=new IntToEng();
+		String expected="one hundred ";
+		String actual = ite.translateEng(100);
+		assertThat(actual, is(expected)); 
+	}
 }
